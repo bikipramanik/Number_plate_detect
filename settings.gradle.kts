@@ -1,0 +1,1 @@
+rootProject.name = "Number_plate_detect"
