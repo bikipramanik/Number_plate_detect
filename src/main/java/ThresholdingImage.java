@@ -2,9 +2,9 @@ import java.awt.image.BufferedImage;
 import java.awt.Color;
 
 public class ThresholdingImage {
-    private BufferedImage grayImage;
-    private int blockSize; // size of local region (must be odd)
-    private int c;         // constant to subtract
+    private final BufferedImage grayImage;
+    private final int blockSize; // size of local region (must be odd)
+    private final int c;         // constant to subtract
 
     public ThresholdingImage(BufferedImage grayImage, int blockSize, int c) {
         this.grayImage = grayImage;
